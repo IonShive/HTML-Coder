@@ -1,11 +1,19 @@
 $(function () {
 
+	$(".menu__list-link, .info__link").on("click", function (event) {
+		event.preventDefault();
+		var id = $(this).attr('href'),
+			top = $(id).offset().top;
+		$('body,html').animate({ scrollTop: top }, 1500);
+	});
+
 	$('.menu-toggle').on('click', function () {
 		$('.menu-toggle').toggleClass('menu-toggle--active');
 		$('.menu__list').toggleClass('menu__list--active');
 		$('.menu').toggleClass('menu--active');
 	});
 
+	var mixer = mixitup('.portfolio__list');
 
 });
 const animItems = document.querySelectorAll('.anim-item');
