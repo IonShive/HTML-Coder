@@ -1,52 +1,92 @@
 @media (max-width: 1200px) {
-	.portfolio {
-		&__box {
-			transform: translateY(120%);
-		}
-		&__box._active {
-			transform: translateY(0);
-		}
-		&__btn {
-			transform: translateY(120%);
-		}
-		&__btn._active {
-			transform: translateY(0);
-		}
-	}
+    .portfolio {
+        &__btn {
+            transform: translateY(120%);
+        }
+
+        &__btn._active {
+            transform: translateY(0);
+        }
+    }
 }
+
 @media (max-width: 780px) {
-	.menu {
-		&__list-text {
-			font-size: 17px;
-		}
-	}
-	.info {
-		&__text {
-			transform: translateY(120%);
-		}
-		&__text._active {
-			transform: translateY(0);
-		}
-		&__wrapper {
-			transform: translateY(-120%);
-		}
-		&__wrapper._active {
-			transform: translateY(0);
-		}
-	}
-	.footer {
-		&__link {
-			transform: translateY(120%);
-		}
-		&__link._active {
-			transform: translateY(0);
-		}
-	}
+    .menu {
+        &__list-text {
+            font-size: 17px;
+        }
+    }
+
+    .info {
+        &__text {
+            transform: translateY(120%);
+        }
+
+        &__text._active {
+            transform: translateY(0);
+        }
+
+        &__wrapper {
+            transform: translateY(-120%);
+        }
+
+        &__wrapper._active {
+            transform: translateY(0);
+        }
+    }
+
+    .footer {
+        &__link {
+            transform: translateY(120%);
+        }
+
+        &__link._active {
+            transform: translateY(0);
+        }
+    }
 }
+
 @media (max-width: 540px) {
-	.menu {
-		.menu__list-text {
-			display: none;
-		}
-	}
+    .menu {
+        .menu__list-text {
+            display: none;
+        }
+    }
+
+    .info {
+        &__title {
+            font-size: 30px;
+            line-height: 35px;
+        }
+
+        &__link {
+            margin-left: 0;
+
+            svg {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+
+    .content {
+        &__text {
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+
+    .footer {
+        &__top {
+            margin-bottom: 20px;
+        }
+
+        &__link {
+            margin: 5px 15px;
+        }
+
+        &__bottom {
+            font-size: 12px;
+        }
+    }
 }

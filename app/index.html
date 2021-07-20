@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
 	<header class="header">
 		<nav class="menu">
 			<div class="menu-toggle">
@@ -65,12 +66,14 @@
 			</ul>
 		</nav>
 	</header>
+
 	<main class="main">
+
 		<section class="info" id="info">
-			<h3 class="info__text anim-item">
+			<h3 class="info__text anim-item anim-no-hide">
 				HTML / CSS / JS
 			</h3>
-			<div class="info__wrapper anim-item">
+			<div class="info__wrapper anim-item anim-no-hide">
 				<h1 class="info__title">
 					Здравствуйте!
 					<br>
@@ -80,7 +83,7 @@
 					HTML верстальщик
 				</h3>
 			</div>
-			<a class="info__link anim-item" href="#content">
+			<a class="info__link anim-item anim-no-hide" href="#content">
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50pt"
 					height="50pt" viewBox="0 0 50 50" version="1.1">
 					<g>
@@ -99,10 +102,11 @@
 				</svg>
 			</a>
 		</section>
+
 		<section class="content" id="content">
 			<div class="container">
 				<div class="content__wrapper">
-					<div class="content__box anim-item">
+					<div class="content__box anim-item anim-no-hide">
 						<h2 class="content__title">
 							ОБО МНЕ
 						</h2>
@@ -114,12 +118,14 @@
 							</g>
 						</svg>
 					</div>
-					<p class="content__text anim-item">
-						Приветствую Вас на своем сайте-портфолио. Меня зовут Владислав. Живу в Сумах. Занимаюсь HTML-версткой
+					<p class="content__text anim-item anim-no-hide">
+						Приветствую Вас на своем сайте-портфолио. Меня зовут Владислав. Занимаюсь
+						HTML-версткой
 						сайтов. У меня
 						полностью кроссбраузерная, адаптивная и валидная верстка. Для обеспечения выполнения требований,
 						предъявляемых к верстке
-						сайта в процессе работы над проектом я использую сборщик проектов Gulp для автоматизации процесса
+						сайта в процессе работы над проектом я использую сборщик проектов Gulp для автоматизации
+						процесса
 						верстки, препроцессор
 						Sass для ускоренной стилизации сайта и более гибкого кода, Pixel Perfect для
 						верстки, совпадающей
@@ -134,7 +140,7 @@
 				</div>
 			</div>
 			<div class="content__list">
-				<div class="content__list-box anim-item">
+				<div class="content__list-box anim-item anim-no-hide">
 					<h3 class="content__subtitle">
 						Мои навыки
 					</h3>
@@ -251,9 +257,10 @@
 				</div>
 			</div>
 		</section>
+
 		<section class="portfolio" id="portfolio">
 			<div class="container">
-				<div class="portfolio__box anim-item">
+				<div class="portfolio__box anim-item anim-no-hide">
 					<div class="portfolio__title">
 						Портфолио
 					</div>
@@ -266,27 +273,40 @@
 					</svg>
 				</div>
 				<div class="portfolio__buttons">
-					<button class="portfolio__btn anim-item" data-filter="all">
+					<button class="portfolio__btn anim-item anim-no-hide" data-filter="all">
 						Верстка
 					</button>
-					<button class="portfolio__btn anim-item" data-filter=".design">
+					<button class="portfolio__btn anim-item anim-no-hide" data-filter=".design">
 						Дизайн и верстка
 					</button>
 				</div>
-				<div class="portfolio__list">
-					<div class="portfolio__item mix design anim-item anim-no-hide">
-						<img class="portfolio__img" src="img/portfolio/items/bg.png" alt="portfolio img">
+				<div class="portfolio__list anim-item anim-no-hide">
+					<div class="portfolio__item mix design">
+						<img class="portfolio__img" src="img/portfolio/portfolio.png" alt="portfolio img">
 						<div class="portfolio__content">
 							<p class="portfolio__content-text">
 								Сайт-визитка.
 								<br>
 								Gulp, Scss, Git
 							</p>
-							<a class="portfolio__content-link" href="#">Посмотреть</a>
+							<a class="portfolio__content-link" href="#info">Посмотреть</a>
 						</div>
 					</div>
-					<div class="portfolio__item mix anim-item anim-no-hide">
-						<img class="portfolio__img" src="img/portfolio/items/agency.png" alt="portfolio img">
+					<div class="portfolio__item mix design">
+						<img class="portfolio__img" src="img/portfolio/congratulate-beautifully.png"
+							alt="portfolio img">
+						<div class="portfolio__content">
+							<p class="portfolio__content-text">
+								Сайт-визитка.
+								<br>
+								Gulp, Scss, Git
+							</p>
+							<a class="portfolio__content-link"
+								href="https://ionshive.github.io/congratulate-beautifully-www/">Посмотреть</a>
+						</div>
+					</div>
+					<div class="portfolio__item mix">
+						<img class="portfolio__img" src="img/portfolio/agency.png" alt="portfolio img">
 						<div class="portfolio__content">
 							<p class="portfolio__content-text">
 								Основная страница.
@@ -297,8 +317,8 @@
 								target="_blank">Посмотреть</a>
 						</div>
 					</div>
-					<div class="portfolio__item mix anim-item anim-no-hide">
-						<img class="portfolio__img" src="img/portfolio/items/restaurant.png" alt="portfolio img">
+					<div class="portfolio__item mix">
+						<img class="portfolio__img" src="img/portfolio/restaurant.png" alt="portfolio img">
 						<div class="portfolio__content">
 							<p class="portfolio__content-text">
 								Основная страница.
@@ -309,8 +329,8 @@
 								target="_blank">Посмотреть</a>
 						</div>
 					</div>
-					<div class="portfolio__item mix anim-item anim-no-hide">
-						<img class="portfolio__img" src="img/portfolio/items/andreevka.png" alt="portfolio img">
+					<div class="portfolio__item mix">
+						<img class="portfolio__img" src="img/portfolio/andreevka.png" alt="portfolio img">
 						<div class="portfolio__content">
 							<p class="portfolio__content-text">
 								Основная страница.
@@ -324,7 +344,9 @@
 				</div>
 			</div>
 		</section>
+
 	</main>
+
 	<footer class="footer">
 		<div class="container">
 			<div class="footer__top">
@@ -380,7 +402,9 @@
 			</div>
 		</div>
 	</footer>
+
 	<script src="js/main.min.js"></script>
+
 </body>
 
 </html>
