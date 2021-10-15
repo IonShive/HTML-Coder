@@ -1,10 +1,11 @@
 {
-  "name": "start__gulp",
+  "name": "html-coder",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://ionshive.github.io/html-coder",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Vlad Balaban",
   "license": "ISC",
