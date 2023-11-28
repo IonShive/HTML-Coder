@@ -1,6 +1,6 @@
 # Layout of the "HTML-Coder" project
 
-**Training project for layout practice** [DEMO LINK]((https://ionshive.github.io/html-coder)) 
+**Training project for layout practice** [DEMO LINK](https://ionshive.github.io/html-coder)
 
 ## Requirements:
 * [Node.js](https://nodejs.org/en/) [version 14.15.1]
