@@ -27,9 +27,3 @@
 | Framework | Description |
 | ------ | ------ |
 | [Mixitup](https://www.kunkalabs.com/mixitup/) | MixItUp is a high performance, no dependency library for animated DOM manipulation that gives you the ability to filter, sort, add and remove DOM elements with beautiful animation. |
-
-## Contact author:
-**Vladislav Balaban**
-  - [Telegram](https://t.me/vlad_balaban2021)
-  - [Gmail](mailto:vlad.balaban2020@mail.com)
-  - [Github](https://github.com/IonShive) 
